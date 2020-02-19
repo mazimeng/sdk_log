@@ -3,7 +3,7 @@
 * 下面这个查询可以找到所有温度和时间
 
 ```
-{tags: {$nin: ["_grokparsefailure"]}}, {temp: 1, time: 1}
+{tags: {$nin: ["_grokparsefailure"]}}, {temp: 1, time: 1}}
 ```
 
 # 2. jdk11
